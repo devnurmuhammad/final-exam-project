@@ -54,6 +54,9 @@
     font-weight: 300;
     padding-top: 160px;
     margin-bottom: 70px;
+    font-weight: 300;
+    padding-top: 160px;
+    margin-bottom: 50px;
 }
 
 .b1 {
@@ -65,13 +68,33 @@
     text-align: center;
     font-family: Roboto;
     font-size: 18px;
+    font-weight: 300;
+    margin-left: 375px;
+}
+
+.b2 {
+    width: 208px;
+    height: 57px;
+    flex-shrink: 0;
+    border: 1px solid #a39c9c;
+    background: rgba(17, 17, 17, 0.60);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 100px;
 }
 
 .two-button {
     justify-content: space-between;
     display: flex;
     margin: 0 430px;
-
+    align-items: center;
+    padding: 20px 40px;
+    grid-gap: 100px;
 }
 .info-div {
     background-color: #F2F2F2;
@@ -126,7 +149,14 @@
     font-weight: 300;
     margin: 20px 0;
     margin-left: 50px;
-
+}
+.project-box .one {
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-left: 30px;
 }
 
 .project-box {
@@ -153,6 +183,10 @@
 .project-box-left h1{
     font-size: 27px;
 }
+
+.project-box-left h1{
+    font-size: 30px;
+}
 .project-box-left p{
     margin-top: 18px;
     font-family: Roboto;
@@ -175,6 +209,11 @@
 .project-box-right img{
     width: 407px;
     height: 163px;
+    height: 200px;
+}
+.project-box-right img{
+    width: 407px;
+    height: 173px;
 }
 
 .card{
@@ -234,4 +273,9 @@
 .card1 p{
     font-size: 13px;
     margin-left: 13px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    color: var(--Gray-1, #333);
+    gap: 5px;
 }
