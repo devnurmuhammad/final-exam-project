@@ -341,5 +341,29 @@
     margin-top: 26px;
     background: url('../../../assets/инт\ 1.svg');
     height: 100vh;
-    background-size:contain;
+    background-size: contain;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60));
+}
+
+.chair h1{
+    color: #FFF;
+    padding: 160px 0 0 400px;
+}
+
+.cubs-and-sentences{
+    display: flex;
+    padding: 78px 0 0 400px;
+}
+
+.sentences h2{
+    display: flex;
+    color: #FFF;
+    margin-bottom: 12px;
+}
+.chair .cub2{
+    background: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 14px;
 }
