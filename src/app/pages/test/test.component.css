@@ -310,6 +310,7 @@
     color: var(--Gray-2, #4F4F4F);
     font-size: 18px;
 }
+
 .let p{
     margin-top: 9px;
     font-size: 10px;
@@ -318,6 +319,7 @@
 .let .tick{
     background: #FAFF09;
 }
+
 .num h1{
     margin-top: 50px;
     margin-right: 10px;
@@ -360,10 +362,96 @@
     color: #FFF;
     margin-bottom: 12px;
 }
+
 .chair .cub2{
     background: #FFFFFF;
     width: 20px;
     height: 20px;
     margin-right: 5px;
     margin-bottom: 14px;
+}
+
+.instagram{
+    /* width: 100vh; */
+    margin: 60px 24px;
+}
+
+.instagram .insta{
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    margin: 11px 0;
+}
+
+.instagram .logo{
+    width: 170px;
+    height: 70px;
+    margin-left: 35px;
+}
+
+.instagram img{
+    width: 300px;
+    height: 300px;
+}
+
+.catalogs{
+    /* width: 100vh; */
+    margin: 0 0;
+}
+
+.catalogs img{
+    width: 700px;
+    height: 440px;
+    padding-left: 0px;
+}
+
+.row2{
+    display: flex;
+}
+
+.catalogs .card2{
+    margin-left: 60px;
+}
+
+.catalogs h1{
+    font-size: 24px;
+}
+
+.catalogs h2{
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 16px;
+    margin: 40px 0 37px 0;
+}
+
+.catalogs .email{
+    border: 1px solid #000;
+    width: 108%;
+    height: 45px;
+    margin: 37px 0 0 0;
+}
+
+.catalogs .email::placeholder{
+    color: var(--Gray-2, #4F4F4F);
+    opacity: 50%;
+    font-size: 17px;
+    padding-left: 14px;
+}
+
+.catalogs h3{
+    font-size: 11px;
+    margin: 9px 0 0 0;
+}
+
+.catalogs .check{
+    margin-right: 3px;
+}
+
+.catalogs button{
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    width: 110%;
+    height: 62px;
+    flex-shrink: 0;
+    margin-top: 60px;
 }
