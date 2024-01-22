@@ -17,6 +17,8 @@ import { ChairComponent } from './components/chair/chair.component';
 import { InstagramComponent } from './components/instagram/instagram.component';
 import { CatalogsComponent } from './components/catalogs/catalogs.component';
 import { LastComponent } from './components/last/last.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { LastComponent } from './components/last/last.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()

@@ -8,6 +8,12 @@
 
 }
 
+.cub {
+    width: 20px;
+    height: 20px;
+    background: #0E0E0E;
+}
+
 .project-box {
     width: 100%;
     margin: 0 0;
