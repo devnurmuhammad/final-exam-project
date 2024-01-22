@@ -1,0 +1,72 @@
+.last {
+    background: url("../../../assets/rect.png") no-repeat;
+    background-size: 100% 100%;
+    width: 890px;
+    height: 603px;
+    margin: 40px 0 0 0;
+}
+
+.c1-img{
+    width: 150px;
+    height: 160px;
+    margin-left: 523px;
+}
+
+.last button{
+    transform: rotate(-90deg);
+    font-size: 18px;
+    position: absolute;
+    right: 0px; 
+    margin-top: 110px;
+    background-color: #FFFFFF;
+    width: 130px;
+    height: 40px;
+}
+
+.last .arrow{
+    width: 35px;
+    height: 9px;
+    stroke-width: 2px;
+    stroke: #000;  
+    padding: 0 0 1px 0; 
+}
+
+.last .logo{
+    margin: 0 0 0 40px;
+    width: 120px;
+    height: 50px;
+}
+
+.c2{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.messengers{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 599px;
+}
+
+.messengers img{
+    width: 40px;
+    height: 40px;
+}
+
+.texts{
+    display: flex;
+    gap: 45px;
+}
+
+.c3{
+    margin: 27px 0 0 40px;
+    color: #F2F2F2;
+}
+
+.c3 h3{
+    color: #F2F2F2;
+    margin: 17px 0 0 0px;
+    font-size: 11px;
+}

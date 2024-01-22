@@ -1,0 +1,70 @@
+.catalogs {
+    margin: 0 0;
+}
+
+.one {
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-left: 50px;
+
+}
+
+.catalogs img {
+    width: 700px;
+    height: 440px;
+    padding-left: 40px;
+}
+
+.row2 {
+    display: flex;
+}
+
+.catalogs .card2 {
+    margin-left: 60px;
+}
+
+.catalogs h1 {
+    font-size: 24px;
+}
+
+.catalogs h2 {
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 16px;
+    margin: 40px 0 37px 0;
+}
+
+.catalogs .email {
+    border: 1px solid #000;
+    width: 108%;
+    height: 45px;
+    margin: 37px 0 0 0;
+}
+
+.catalogs .email::placeholder {
+    color: var(--Gray-2, #4F4F4F);
+    opacity: 50%;
+    font-size: 17px;
+    padding-left: 14px;
+}
+
+.catalogs h3 {
+    font-size: 11px;
+    margin: 9px 0 0 0;
+}
+
+.catalogs .check {
+    margin-right: 3px;
+}
+
+.catalogs button {
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    width: 110%;
+    height: 62px;
+    flex-shrink: 0;
+    margin-top: 60px;
+}

@@ -1,0 +1,80 @@
+.one {
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-left: 50px;
+
+}
+
+.project-box {
+    width: 100%;
+    margin: 0 0;
+    height: 200px;
+    margin-bottom: 230px;
+}
+
+.project-box .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0% 110px;
+    gap: 20px;
+}
+
+.project-box-left {
+    width: 550px;
+    height: 200px;
+}
+
+.project-box-left h1 {
+    font-size: 27px;
+}
+
+.project-box-left p {
+    margin-top: 18px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.project-box-left button {
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    width: 260px;
+    height: 42px;
+    flex-shrink: 0;
+    margin-top: 60px;
+}
+
+.project-box-right {
+    width: 500px;
+    height: 300px;
+}
+
+.project-box-right img {
+    width: 407px;
+    height: 163px;
+}
+
+.card {
+    margin-left: 100px;
+}
+
+.project-box-right h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    display: flex;
+    color: #000;
+    gap: 5px;
+}
+
+.project-box-right h3 {
+    display: flex;
+    font-size: 15px;
+    color: var(--Gray-1, #333);
+    gap: 3px;
+    margin: 5px 0;
+}

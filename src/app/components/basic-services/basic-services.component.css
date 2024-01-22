@@ -1,0 +1,48 @@
+.basic-services {
+    width: 100%;
+    margin: 0 0;
+}
+
+.one {
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 20px 0;
+    margin-left: 50px;
+
+}
+
+.basic-services .cub {
+    background: var(--Gray-2, #4F4F4F);
+}
+
+.basic-services h1 {
+    color: #0E0E0E;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 300px;
+}
+
+.card1 img {
+    width: 300px;
+    height: 380px;
+}
+
+.card1 h1 {
+    font-size: 28px;
+    margin-top: 6px;
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+
+.card1 p {
+    font-size: 13px;
+    margin-left: 13px;
+}

@@ -242,10 +242,6 @@
     margin-left: 13px;
 }
 
-.our-projects {
-    /* width: 100vh; */
-}
-
 .our-projects .row {
     display: flex;
     padding: 0 64px;
@@ -288,7 +284,6 @@
     width: 180px;
     height: 37px;
     color: var(--Gray-6, #F2F2F2);
-    ;
     border: 1px solid #000;
     background: #000;
 }
@@ -305,7 +300,6 @@
 .let .sym {
     width: 40px;
     height: 40px;
-    /* margin-bottom: 7px; */
 }
 
 .let h2 {
@@ -381,7 +375,6 @@
 }
 
 .instagram {
-    /* width: 100vh; */
     margin: 60px 24px;
 }
 
@@ -404,7 +397,6 @@
 }
 
 .catalogs {
-    /* width: 100vh; */
     margin: 0 0;
 }
 
